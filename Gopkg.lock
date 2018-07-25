@@ -1,0 +1,12 @@
+[[projects]]
+  name = "github.com/xtgo/set"
+  packages = ["."]
+  revision = "708d80f4a27458f99f8ca12bd0e638c6ee65627f"
+  version = "v1.0.0"
+
+[solve-meta]
+  analyzer-name = "dep"
+  analyzer-version = 1
+  inputs-digest = "7530ca9e8dc5c5f635fe2761cce76458fb937d8f1479ca1402cf321061c4eeb4"
+  solver-name = "gps-cdcl"
+  solver-version = 1
