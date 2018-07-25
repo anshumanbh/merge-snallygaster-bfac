@@ -134,8 +134,12 @@ func writeResultsToCsv(results []string, outputFilePath string) error {
 	}
 	defer outputFile.Close()
 
-	for _, str := range results {
-		outputFile.WriteString(str + "\n")
+	if len(results) != 0 {
+		for _, str := range results {
+			outputFile.WriteString(str + "\n")
+		}
+	} else {
+		outputFile.WriteString("NA")
 	}
 	return nil
 }
